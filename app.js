@@ -17,6 +17,8 @@ app.get("/setup", (req, res) => {
   res.render("setup")
 })
 
+
+
 app.listen(PORT, function(err) {
   if(err) { console.log("Server has errors! Check it: " + err) }
   else { console.log("Server started on port " + PORT + "!") }

@@ -1,1 +1,2 @@
-Disallow: ../img/*
+Disallow: ./img/*
+Allow: ./img/favicon.webp

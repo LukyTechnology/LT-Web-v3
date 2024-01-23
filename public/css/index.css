@@ -11,7 +11,7 @@ h1 {
     position: absolute;
     left: 10%;
     right: 10%;
-    margin-top: 250px;
+    margin-top: 160px;
     font-size: 72px;
     font-family: 'Permanent Marker', cursive;
     animation-duration: 1.7s;
@@ -64,13 +64,13 @@ ion-icon {
     background-image: url("/img/background.webp");
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: 1920px;
+    background-size: 1280px;
 }
 
 .introduction {
     padding: 73px 0;
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 
 .introduction p {
@@ -79,7 +79,7 @@ ion-icon {
     text-align: center;
     left: 10%;
     right: 10%;
-    margin-top: 350px;
+    margin-top: 260px;
     font-size: 28px;
     animation-duration: 2s;
     font-family: 'Josefin Sans', sans-serif;
@@ -104,36 +104,44 @@ ion-icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .left img {
-    margin-top: 70px;
+    justify-content: right;
+    align-items: center;
     width: 250px;
+    margin-left: 100px;
 }
 
 .left p {
-    margin-top: 100px;
     box-sizing: border-box;
     width: 840px;
-    margin-right: 100px;
+    justify-content: left;
 }
 
 .right {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .right img {
-    margin-top: 70px;
+    justify-content: left;
+    align-items: center;
     width: 250px;
+    margin-right: 100px;
 }
 
 .right p {
-    margin-top: 100px;
     box-sizing: border-box;
     width: 840px;
-    margin-left: 100px;
+    justify-content: right;
+}
+
+.next {
+    margin-top: 100px;
 }
 
 

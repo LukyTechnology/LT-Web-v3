@@ -20,7 +20,7 @@ h1 {
 h2 {
     font-family: 'Lato', sans-serif;
     color: var(--light);
-    font-size: 54px;
+    font-size: 58px;
     font-weight: 1000;
 }
 
@@ -112,6 +112,13 @@ ion-icon {
     align-items: center;
     width: 250px;
     margin-left: 100px;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.left img:hover {
+    transform: scale(1.10) translateY(-3px);
+    transition: 0.3s;
 }
 
 .left p {
@@ -132,6 +139,13 @@ ion-icon {
     align-items: center;
     width: 250px;
     margin-right: 100px;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.right img:hover {
+    transform: scale(1.10) translateY(-3px);
+    transition: 0.3s;
 }
 
 .right p {
@@ -179,39 +193,6 @@ ion-icon {
 }
 
 
-
-
-
-.languages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-}
-
-.languages img {
-    height: 200px;
-}
-
-.languages h4 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 550;
-    margin-top: 0;
-}
-
-.description {
-    display: flex;
-    justify-content: center;
-}
-
-.description p {
-    text-align: left;
-    margin-top: 100px;
-    box-sizing: border-box;
-    width: 1200px;
-}
 
 
 
@@ -318,18 +299,7 @@ ion-icon {
     }
 
 
-    .languages {
-        display: block;
-    }
-    .languages img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .description p {
-        margin-top: 40px;
-        margin-bottom: 80px;
-    }
-    .next {
+    .sec {
         margin-left: 20px;
     }
     .icons {

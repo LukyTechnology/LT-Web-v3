@@ -19,9 +19,11 @@ document.getElementById('index').addEventListener('click', function() {
   window.location.href = domain;
 });
 
-document.getElementById('setup').addEventListener('click', function() {
-  window.location.href = domain + "setup";
-});
+Array.from(document.getElementsByClassName("setup")).forEach(function(element) {
+  element.addEventListener('click', function() {
+    window.location.href = domain + "setup";
+  })
+})
 
 
 

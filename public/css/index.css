@@ -153,12 +153,10 @@ ion-icon {
 }
 
 .more {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-top: 100px;
-}
-
-.more h4 {
-    margin-bottom: 60px;
+    margin-top: 70px;
 }
 
 .more a {
@@ -170,6 +168,14 @@ ion-icon {
     border-radius: 99px;
     background-color: var(--main);
     padding: 15px 20px;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.more a:hover {
+    cursor: pointer;
+    transform: scale(1.15) translateY(-3px);
+    transition: 0.3s;
 }
 
 
@@ -214,7 +220,7 @@ ion-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .icons a {
@@ -227,7 +233,7 @@ ion-icon {
     transition: 0.3s;
 }
 
-.next {
+.sec {
     margin-left: 50px;
 }
 

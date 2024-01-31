@@ -194,6 +194,39 @@ ion-icon {
 
 
 
+ul {
+    margin-top: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img {
+    width: 480px;
+    height: 300px;
+    border-radius: 50px;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.5s;
+}
+
+.projects img:hover {
+    cursor: pointer;
+    transform: scale(1.15) translateY(-3px);
+    transition: 0.5s;
+    filter: grayscale(100%) blur(2px) brightness(50%);
+}
+
+
+
+
 
 
 

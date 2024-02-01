@@ -30,3 +30,12 @@ Array.from(document.getElementsByClassName("setup")).forEach(function(element) {
 // Footer
 
 document.getElementById("date").innerHTML = String("Všetky práva vyhradené. © " + new Date().getFullYear());
+
+
+
+// Kopirovanie emailu
+
+function email() {
+  const email = "lukytechnology@gmail.com";
+  navigator.clipboard.writeText(email);
+}

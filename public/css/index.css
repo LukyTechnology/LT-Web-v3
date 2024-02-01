@@ -243,11 +243,13 @@ ion-icon {
 .icons a:hover {
     transform: scale(1.28) translateY(-7px);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .sec {
     margin-left: 50px;
 }
+
 
 
 

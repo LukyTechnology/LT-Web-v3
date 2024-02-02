@@ -43,6 +43,16 @@ h4 {
     font-style: italic;
 }
 
+h5 {
+    color: var(--light);
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+}
+
 p {
     color: #beb5b5;
     font-family: 'Josefin Sans', sans-serif;
@@ -154,17 +164,26 @@ ion-icon {
     justify-content: right;
 }
 
+
+
+
+
+.sec {
+    margin-left: 50px;
+}
+
 .next {
     margin-top: 100px;
 }
 
-
-
-
-
 .mb {
     display: none;
 }
+
+
+
+
+
 
 .more {
     display: flex;
@@ -191,6 +210,8 @@ ion-icon {
     transform: scale(1.15) translateY(-3px);
     transition: 0.3s;
 }
+
+
 
 
 
@@ -246,10 +267,38 @@ ion-icon {
     cursor: pointer;
 }
 
-.sec {
-    margin-left: 50px;
+
+
+
+
+.center {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
+.center img {
+    height: 250px;
+    margin-right: 100px;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+.center img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.component {
+    display: flex;
+    justify-content: left;
+}
+
+.component p {
+    margin-top: -20px;
+}
 
 
 

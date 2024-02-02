@@ -63,32 +63,7 @@ h3 {
     margin-top: 40px;
 }
 
-.center {
-    display: grid;
-    grid-template-columns: 600px 600px;
-    column-gap: 100px;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid var(--main);
-    padding-bottom: 50px;
-}
 
-.center img {
-    height: 250px;
-    margin-right: 100px;
-    transform: scale(1.0);
-    transition: 0.5s;
-}
-
-.center img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.component {
-    display: flex;
-    justify-content: left;
-}
 
 
 

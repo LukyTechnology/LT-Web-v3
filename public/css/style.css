@@ -47,10 +47,10 @@ h5 {
     color: var(--light);
     text-align: left;
     font-family: 'Lato', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 550;
     letter-spacing: 0.6px;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 p {
@@ -294,10 +294,27 @@ ion-icon {
 .component {
     display: flex;
     justify-content: left;
+    align-items: center;
 }
 
 .component p {
     margin-top: -20px;
+}
+
+.component .first {
+    margin-top: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.description p {
+     margin-top: 80px;
+     font-size: 22px;
+     font-style: italic;
+     filter: opacity(70%);
 }
 
 

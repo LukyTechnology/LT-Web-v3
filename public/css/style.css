@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Permanent+Marker&display=swap');
 
+
+
+/* Main CSS */
+
 section {
     border-bottom: 1px solid var(--main);
     padding: 30px 10px 50px 10px;
@@ -68,7 +72,7 @@ ion-icon {
 
 
 
-
+/* INTRODUCTION */
 
 .intro {
     background-image: url("/img/background.webp");
@@ -97,8 +101,7 @@ ion-icon {
 
 
 
-
-
+/* Základné CSS nastavenia */
 
 .title {
     width: 100%;
@@ -164,9 +167,7 @@ ion-icon {
     justify-content: right;
 }
 
-
-
-
+/* DOPLNKY */
 
 .sec {
     margin-left: 50px;
@@ -182,8 +183,7 @@ ion-icon {
 
 
 
-
-
+/* BUTTONY */
 
 .more {
     display: flex;
@@ -213,7 +213,7 @@ ion-icon {
 
 
 
-
+/* PROJEKTY / PORTFOLIO */
 
 .projects {
     margin-top: 70px;
@@ -245,15 +245,13 @@ ion-icon {
 
 
 
-
-
-
+/* IKONKY */
 
 .icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .icons a {
@@ -269,7 +267,7 @@ ion-icon {
 
 
 
-
+/* SETUP */
 
 .center {
     display: grid;
@@ -318,6 +316,9 @@ ion-icon {
 }
 
 
+
+/* SETUP na jeden stlpec */
+
 @media only screen and (max-width: 1366px) {
     .center {
         grid-template-columns: 600px;
@@ -325,7 +326,13 @@ ion-icon {
 }
 
 
+
+/* Mobilná Optimalizácia */
+
 @media only screen and (max-width: 896px) {
+    
+    /* Main CSS */
+
     section {
         padding: 0 5%;
     }
@@ -341,22 +348,8 @@ ion-icon {
     img {
         display: block;
     }
-    .mb {
-        display: block;
-    }
-    .mb-dis {
-        display: none;
-    }
-    .sec {
-        margin-left: 20px;
-    }
-    .icons {
-        margin-bottom: 50px;
-    }
-    .next {
-        margin-top: 30px;
-    }
 
+    /* INTRODUCTION */
 
     .introduction p {
         font-size: 16px;
@@ -369,6 +362,7 @@ ion-icon {
         background-size: 1200px;
     }
 
+    /* Základné CSS nastavenia */
 
     .title h2 {
         font-size: 36px;
@@ -405,12 +399,41 @@ ion-icon {
         margin-right: auto;
         width: 180px;
     }
+
+    /* DOPLNKY */
+
+    .mb {
+        display: block;
+    }
+    .mb-dis {
+        display: none;
+    }
+    .sec {
+        margin-left: 20px;
+    }
+    .next {
+        margin-top: 30px;
+    }
+
+    /* BUTTONY */
+
     .more {
         margin-bottom: 80px;
+    }
+    .more a {
+        font-size: 18px;
+        padding: 15px 15px;
     }
     .more h4 {
         font-size: 20px;
         margin-bottom: 40px;
+    }
+
+    /* PROJEKTY / PORTFOLIO */
+
+    .projects img {
+        width: 100%;
+        height: 250px;
     }
     .text {
         width: 100%;
@@ -418,19 +441,15 @@ ion-icon {
     .text p {
         width: 100%;
     }
-    .projects img {
-        width: 100%;
-        height: 250px;
-    }
 
-    .description p {
-        font-size: 16px;
+    /* IKONKY */
+
+    .icons {
         margin-bottom: 50px;
     }
 
-    .title h2 {
-        font-size: 36px;
-    }
+    /* SETUP */
+
     .setup {
         display: block;
     }
@@ -443,6 +462,10 @@ ion-icon {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .description p {
+        font-size: 16px;
+        margin-bottom: 50px;
     }
     .center {
         column-gap: 10px;

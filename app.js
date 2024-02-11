@@ -16,6 +16,9 @@ app.get("/", (req, res) => {
 app.get("/setup", (req, res) => {
   res.render("setup")
 })
+app.get("/podpora", (req, res) => {
+  res.redirect("https://www.buymeacoffee.com/lukytechnology")
+})
 
 
 
